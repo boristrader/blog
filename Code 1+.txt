@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Blog cua Dollar</title>
+		<link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+	</head>
+	
+	<body>
+		<!-- header start -->
+		<div id="header" class="section">
+			<img alt="" class="img-circle" src="logo.png">
+			<p>Boris Trader</p>
+		</div>
+		<!-- header end -->
+		
+		<!-- About Me section start -->
+		<div class="section">
+			<h1><span>Gioi thieu</span></h1>
+			<p>
+				Xin chao, day la trang web cua <strong>Dollar</strong> do Dollar tu thiet ke sau <u>3 ngay</u> hoc lap trinh. Lap trinh kha la thu vi.
+			</p>
+			<p class="quote">"Moi hoc co 3 ngay thoi do"</p>
+		</div>
+		<!-- About Me section end -->
+		
+		<!-- My Schedule section start -->
+		<div class="section">
+			<h1><span>Thoi gian bieu</span></h1>
+			<table>
+				<tr>
+					<th>Thu 2</th>
+					<th>Thu 3</th>
+					<th>Thu 4</th>
+					<th>Thu 5</th>
+					<th>Thu 6</th>
+					<th>Thu 7</th>
+				</tr>
+				<tr>
+					<td>8-8:30</td>
+					<td class="selected">An Sang</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>9-10</td>
+					<td></td>
+					<td class="selected">Hoc lap trinh</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>10-11</td>
+					<td></td>
+					<td class="selected">Hoc tieng Trung</td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>1-3:30</td>
+					<td></td>
+					<td></td>
+					<td class="selected">Doc sach chung khoan</td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>3:45-5</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="selected">Hoc bai</td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>6-6:15</td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td class="selected">On tap</td>
+				</tr>
+			</table>
+		</div>
+		<!-- My Schedule section end -->
+		
+		
+		<!-- My Skills section start -->
+		<div class="section">
+			<h1><span>Nang luc</span></h1>
+			<ul>
+				<li>Phan tich <br />
+					<progress min="0" max="100" value="80"></progress>
+				</li>
+				<li>Chung Khoan <br />
+					<progress min="0" max="100" value="70"></progress>
+				</li>
+				<li>Tieng Trung<br />
+					<progress min="0" max="100" value="40"></progress>
+				</li>
+				<li>Lap Trinh <br />
+					<progress min="0" max="100" value="20"></progress>
+				</li>
+			</ul>
+		</div>
+		<!-- My Skills section end -->
+		
+		
+		 <!-- Media section start -->
+		<div class="section">
+			<h1><span>Facebook</span></h1>
+			<iframe height="150" width="300" src="www.facebook.com/rmaven71" allowfullscreen frameborder="0"></iframe>
+		</div>
+		<!-- Media section end -->
+		
+		<!-- Form section start -->
+	   <div class="section">
+			<h1><span>Lien he</span></h1>
+			
+			<svg class="face" height="100" width="100">
+				<circle cx="50" cy="50" r="50" fill="#FDD835"/>
+				<circle cx="30" cy="30" r="10" fill="#FFFFFF"/>
+				<circle cx="70" cy="30" r="10" fill="#FFFFFF"/>
+				<circle cx="30" cy="30" r="5" fill="#000000"/>
+				<circle cx="70" cy="30" r="5" fill="#000000"/>
+				<path d="M 30 70 q 20 20 40 0" stroke="#FFFFFF" stroke-width="5" fill="none" />
+			</svg>
+				 
+			<form>
+				<input name="Ten" placeholder="Ten" type="text" required /><br/>
+				<input name="Dia chi email" placeholder="Dia chi email" type="email" required /><br/>
+				<textarea name="Tin nhan" placeholder="Tin nhan" required ></textarea>
+				<input type="Gui" value="Gui" class="submit" />
+			</form>
+		</div>
+		<!-- Form section end -->
+		
+		<!-- Contacts section start -->
+		<div class="section" id="contacts">
+			<h1><span>So dien thoai</span></h1>
+			<p> 0000000000</p>
+			<div>
+				<a href="https://www.facebook.com/rmaven71" target="_blank">
+					<img alt="SoloLearn" src="https://www.sololearn.com/Uploads/icons/sololearn.png" />
+				</a>
+				<a href="#">
+					<img alt="Facebook" src="https://www.sololearn.com/Uploads/icons/facebook.png"/>
+				</a>
+				<a href="#">
+					<img alt="Twitter" src="https://www.sololearn.com/Uploads/icons/twitter.png" />
+				</a>
+			</div>
+		</div>
+		<!-- Contacts section end -->
+		
+		<div class="copyright">
+			&copy; 2020 My Blog. All rights reserved.
+		</div>
+		
+	</body>
+</html>
